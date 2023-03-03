@@ -21,3 +21,11 @@ body {
     height: calc(100% / 10);
     border: 1px solid black;
 }
+
+.box:hover {
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: aqua;
+}
