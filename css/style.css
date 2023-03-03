@@ -8,6 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.playmode {
+    margin: 20px auto;
+    text-align: center;
+}
+
 .grid {
     margin: auto;
     display: flex;
@@ -16,9 +21,22 @@ body {
     width: 600px;
 }
 
-.box {
+/* CLASSI PER LE DIVERSE MODALITA DI GIOCO */
+.facile {
     width: calc(100% / 10);
     height: calc(100% / 10);
+    border: 1px solid black;
+}
+
+.intermedio {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid black;
+}
+
+.difficile {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 1px solid black;
 }
 
