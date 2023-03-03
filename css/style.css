@@ -8,9 +8,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    text-align: center;
+    color: #588157;
+}
+
 .playmode {
     margin: 20px auto;
-    text-align: center;
 }
 
 .grid {
@@ -25,18 +29,19 @@ body {
 .facile {
     width: calc(100% / 10);
     height: calc(100% / 10);
-    border: 1px solid black;
 }
 
 .intermedio {
     width: calc(100% / 9);
     height: calc(100% / 9);
-    border: 1px solid black;
 }
 
 .difficile {
     width: calc(100% / 7);
     height: calc(100% / 7);
+}
+
+.box {
     border: 1px solid black;
 }
 
@@ -45,5 +50,9 @@ body {
 }
 
 .clicked {
-    background-color: aqua;
+    background-color: #344e41;
+}
+
+select, button {
+    padding: 5px;
 }

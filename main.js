@@ -4,6 +4,7 @@ const selectDom = document.querySelector('#select');
 
 const playBtn = document.querySelector('#play');
 
+//crea la grid appena il programma si carica
 gameMode(parseInt(selectDom.value));
 
 playBtn.addEventListener('click', function() {
@@ -27,6 +28,7 @@ function gameMode(mode) {
     for(let i = 1; i <= mode; i++) {
         let box = document.createElement('div');
         box.classList.add(classText);
+        box.classList.add('box');
         box.addEventListener('click', function() {
     
             //mostra il numero solo se box non è ancora attiva
